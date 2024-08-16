@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+
+{
+  "author": "Erkki",
+  "title": "Testiä lisää",
+  "url": "https://testausta/22.com",
+  "likes": 42,
+  "userId": "66bddbd211e0c776ea468149"
+}
