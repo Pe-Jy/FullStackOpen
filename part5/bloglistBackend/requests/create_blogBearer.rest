@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs 
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkxldCdzIHRlc3QiLCJpZCI6IjY2YmRiYjM0NGUyODNlNzk4OGI0MTQ3NyIsImlhdCI6MTcyMzczMDI4Nn0._Nx8R3sMpyM5mGJaKTlBWBgjtSy8TKqwwB2f2hwovgs
+
+{
+  "author": "Erkki Bearer3",
+  "title": "TokenBearer3",
+  "url": "https://testausta/22222.com",
+  "likes": 422,
+  "userId": "66bddbd211e0c776ea468149"
+}
